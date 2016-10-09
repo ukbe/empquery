@@ -1,6 +1,6 @@
 # EmpQuery Demo Application
 
-EmpQuery is a simple demo application in order to perform a static query against @datacharmer/test_db.
+EmpQuery is a simple demo application in order to perform a static query against https://github.com/datacharmer/test_db.
 
 This application is developed using **Laravel 5.3.15**
 
