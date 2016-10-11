@@ -14,7 +14,7 @@ class WelcomeController extends Controller
     {
         $employees = Employee::whereDate('birth_date', '=', '1965-02-01')
             ->whereDate('hire_date', '>', '1990-01-01')
-            ->where('gender', '=', 'm')
+            ->where('gender', '=', 'M')
             ->orderBy('first_name', 'asc')
             ->orderBy('last_name', 'asc')->get();
 
